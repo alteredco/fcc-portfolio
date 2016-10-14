@@ -1,0 +1,497 @@
+html {
+  height: 100vh;
+  /* set viewport constraint */
+  min-height: 100%;
+  /* enforce height */
+}
+
+
+/*NAVIGATION*/
+
+.navbar {
+  padding: none;
+  margin: none;
+  border: none;
+}
+
+.navbar .navbar-default .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-brand img {
+  height: 70px;
+  width: auto;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  padding-bottom: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+}
+
+.navbar-default .nav.navbar-nav li a {
+  color: #04ADCA;
+  margin: auto;
+  line-height: 80px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  height: 85px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.navbar-default .navbar-nav li+li {
+  border-left: 1px solid #e6e6e6;
+}
+
+
+/*HEADER*/
+
+header {
+  text-align: center;
+  background-image: linear-gradient(to right, rgba(57, 97, 102, 0.55) 0%, rgba(246, 246, 246, 0.3) 67%, rgba(250, 250, 250, 0.17) 100%), url("http://res.cloudinary.com/alteredco/image/upload/v1472703772/desktop_lrg.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  display: flex;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  padding-left: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.5em;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.3em;
+  color: #fff;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  color: #393939;
+}
+
+
+/*ABOUT*/
+
+.band1 {
+  margin-top: 100px;
+  padding: 60px;
+  background-color: #d6c5c4;
+  background-size: 100% 600px;
+  position: relative;
+  text-align: right;
+}
+
+.skill-list ul {
+  padding: 5px;
+}
+
+.skill-list ul li {
+  margin: 5px;
+  list-style: none outside none;
+  display: inline-block;
+}
+
+.skill-list i {
+  width: 80px;
+  height: 80px;
+  color: #FFF;
+  background-color: #d6c5c4;
+  font-size: 44px;
+  text-align: center;
+  padding-top: 24px;
+}
+
+.profile-pic {
+  display: block;
+  margin: 0 auto;
+  border: 10px solid #fff;
+  height: 300px;
+  -webkit-box-shadow: 24px 20px 36px -13px rgba(56, 56, 56, 1);
+  -moz-box-shadow: 24px 20px 36px -13px rgba(56, 56, 56, 1);
+  box-shadow: 24px 20px 36px -13px rgba(56, 56, 56, 1);
+}
+
+
+/*PORTFOLIO*/
+
+.band2 {
+  margin-top: 100px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  background-image: linear-gradient(to right, rgba(57, 97, 102, 0.55) 0%, rgba(246, 246, 246, 0.3) 67%, rgba(250, 250, 250, 0.17) 100%), url("http://res.cloudinary.com/alteredco/image/upload/v1472711675/blue-shiplap_lrg.jpg");
+  background-color: #e6e6e6;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+figure {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.thumbnail {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border: 5px solid #fff;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+}
+
+.thumbnail .caption {
+  opacity: 0;
+  display: block;
+  position: absolute;
+  z-index: 5;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+/*CONTACT*/
+
+.band3 {
+  margin-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  background-image: linear-gradient(135deg, rgba(170, 244, 247, 0.3) 0%, rgba(0, 166, 188, 1) 100%, rgba(0, 179, 204, 0.3) 100%), url("http://res.cloudinary.com/alteredco/image/upload/v1473405375/photo-papers.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  display: flex;
+  background-repeat: repeat;
+  text-align: center;
+}
+
+.social {
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.social ul {
+  padding: 5px;
+}
+
+.social ul li {
+  margin: 5px;
+  list-style: none outside none;
+  display: inline-block;
+}
+
+.social i {
+  width: 80px;
+  height: 80px;
+  color: #FFF;
+  background-color: #909AA0;
+  font-size: 44px;
+  text-align: center;
+  padding-top: 24px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+
+.band4 {
+  background-color: #04ADCA;
+  background: linear-gradient(to bottom right, #04cac6 0%, #04ADCA 100%);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: flex;
+  position: relative;
+  margin-top: none;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  height: auto;
+  text-align: center;
+}
+
+.contact-form h3 {
+  font-size: 40px;
+  font-weight: 100;
+  color: #fff;
+}
+
+form {
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: none;
+  position: relative;
+}
+
+form ul {
+  width: 100%;
+  height: auto;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+input {
+  display: block;
+  border: 1px solid #eee;
+  background-color: #eee;
+  box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+  width: 250px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  transition: all .4s ease;
+}
+
+input:focus:invalid {
+  box-shadow: 0 0 5px #d45252;
+  border-color: #b03535
+}
+
+input:required:valid {
+  box-shadow: 0 0 5px #5cd053;
+  border-color: #28921f;
+}
+
+label {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+}
+
+#message {
+  width: 100%;
+  height: 150px;
+  resize: none;
+}
+
+button[type=submit] {
+  display: inline-block;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 15px;
+  color: #04ADCA;
+  border-radius: 3px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#d6f1f3));
+  background: -webkit-linear-gradient(top, #fff, #d6f1f3);
+  background: -moz-linear-gradient(top, #fff, #d6f1f3);
+  background: -ms-linear-gradient(top, #fff, #d6f1f3);
+  background: -o-linear-gradient(top, #fff, #d6f1f3);
+  background: linear-gradient(top, #fff, #d6f1f3);
+  box-shadow: inset 0 1px 0 0 #74d0d5;
+  -webkit-box-shadow: 0 1px 0 0 #74d0d5 inset;
+  -moz-box-shadow: 0 1px 0 0 #74d0d5 inset;
+  -ms-box-shadow: 0 1px 0 0 #74d0d5 inset;
+  -o-box-shadow: 0 1px 0 0 #74d0d5 inset;
+}
+
+
+/*FOOTER*/
+
+footer {
+  text-align: center;
+  background-color: #fff;
+}
+
+footer h3 {
+  color: #d6c5c4;
+}
+
+
+/*MEDIA*/
+
+@media screen and (min-device-width: 1024px) {
+  .navbar-default .nav.navbar-nav li a:hover,
+  .navbar-default .nav.navbar-nav li a:focus,
+  .navbar-default .nav.navbar-nav li a:active {
+    color: #fff;
+    background-color: #d6c5c4;
+  }
+  .thumbnail a:hover .caption,
+  .thumbnail:hover .caption,
+  .thumbnail:focus .caption {
+    display: block;
+    background: #000;
+    opacity: 0.8;
+  }
+  .grow:hover,
+  .grow:focus {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .social i:hover,
+  .social i:focus {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+  }
+  .social .fa-linkedin:hover,
+  .social .fa-linkedin:focus {
+    /* round facebook icon*/
+    background: #8d6cab;
+  }
+  .social .fa-facebook:hover,
+  .social .fa-facebook:focus {
+    /* round facebook icon*/
+    background: #4060A5;
+  }
+  .social .fa-weixin:hover,
+  .social .fa-weixin:focus {
+    /* round weixin icon*/
+    background: #7bb32e;
+  }
+  .social .fa-codepen:hover,
+  .social .fa-codepen:focus {
+    /* round codepen icon*/
+    background: #616f67;
+  }
+  .social .fa-fire:hover,
+  .social .fa-fire:focus {
+    /* round freecodecamp icon*/
+    background: #9ABCA5;
+  }
+  .social .fa-github:hover,
+  .social .fa-github:focus {
+    /* round codepen icon*/
+    background: #ff9933;
+  }
+  input:hover {
+    background: #d6f1f3;
+  }
+}
+
+@media screen and (max-device-width: 769px) {
+  body {
+    margin: none;
+    height: 100%;
+  }
+  .navbar-fixed-top {
+    position: relative;
+    top: auto;
+  }
+  .navbar-collapse {
+    max-height: none;
+  }
+  .navbar-brand img {
+    height: 40px;
+    width: auto;
+  }
+  header {
+    background-image: linear-gradient(135deg, rgba(170, 244, 247, 0.5) 0%, rgba(0, 166, 188, 0.5) 100%, rgba(0, 179, 204, 0.5) 100%), url("http://res.cloudinary.com/alteredco/image/upload/v1473392889/profile_travel.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    padding-top: 30px;
+    overflow: hidden;
+  }
+  h1 {
+    margin-top: 30px;
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5em;
+    font-weight: 200;
+    color: #fff;
+  }
+  h2 {
+    font-size: 2em;
+    font-weight: 200;
+  }
+  .band1 {
+    margin: none;
+  }
+  .profile-pic {
+    margin-top: 30px;
+    height: auto;
+  }
+  .band2 {
+    margin: none;
+    background-image: linear-gradient(135deg, rgba(170, 244, 247, 0.5) 0%, rgba(0, 179, 204, 0.5) 100%), url("http://res.cloudinary.com/alteredco/image/upload/v1472711675/blue-shiplap_lrg.jpg");
+    background-size: contain;
+    position: relative;
+    background-repeat: repeat;
+  }
+  .band3 {
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    background-image: linear-gradient(135deg, rgba(170, 244, 247, 1) 0%, rgba(0, 166, 188, 1) 100%, rgba(0, 179, 204, 1) 100%);
+    background-size: contain;
+    background-color: #d6c5c4;
+    background-repeat: no-repeat;
+    text-align: left;
+  }
+  .social {
+    margin: none;
+    padding: none;
+  }
+  .band4 {
+    background-color: #d6c5c4;
+    position: relative;
+    margin-top: none;
+  }
+}
